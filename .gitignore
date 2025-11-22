@@ -1,0 +1,11 @@
+# don't upload large audio or generated stuff
+data/raw/
+results/stems/
+*.wav
+*.mp3
+*.flac
+
+# python junk
+__pycache__/
+.ipynb_checkpoints/
+.env
